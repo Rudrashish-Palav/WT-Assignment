@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> GAMEToGAME </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Gamestyle.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="Title">
+                <p>Game to Game</p>
+            </div>
+        </div>
+        <div class="navbar" id="mynavbar"> 
+            <a  href="file:///C:/Users/Rudrashish%20Palav/Desktop/VB%20HTML%20CSS/GAMEToGAME.html">Home</a>
+             <a href="https://www.bungie.net/" target="_blank" rel="noopener"> Destiny </a>
+             <a  href="https://www.ea.com/en-gb/games/apex-legends/news" target="_blank" rel="noopener"> Apex </a>
+             <a  href="file:///C:/Users/Rudrashish%20Palav/Desktop/VB%20HTML%20CSS/form1.html">Register</a>
+        </div>
+        <div class="row">
+            <div class="column side">
+                <h3>Column 1 </h3>
+                <p>abc</p>
+            </div>
+            <div class="column middle">
+                <h3>Column 2 </h3>
+                <p>xyz</p>
+            </div>
+            <div class="column side">
+                <h3>Column 3 </h3>
+                <p>qwe</p>
+            </div>
+        </div>
+
+        <!--  Sticky navbar script -->
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("mynavbar");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            }
+         </script>
+    </body>
+</html>

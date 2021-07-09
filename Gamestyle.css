@@ -1,0 +1,115 @@
+/*Home Page*/
+/*Header*/
+.header{  
+  
+   padding: 250px;
+   background-image: url("images/kirby.gif");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color: aliceblue;
+   background-size: 100% 100%;
+}
+
+.Title{
+    /*padding: 250px;
+    background-image:url("images/car.gif");
+    background-repeat: no-repeat;
+   background-size: contain;
+    background-size: 100% 100%;*/
+    text-align: left;
+    color :seashell;
+    font-family:"Fantasy","Papyrus";
+    font-style: bold;
+    font-size: 70px;
+    transition: 3s;
+
+}
+
+
+/*Body*/
+body{
+    border:0px solid;
+    border-color: black;
+    color:rgb(22, 2, 2);
+    background-color:rgb(255, 198, 152);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+/*Navigation Bar*/
+.navbar{
+    overflow: hidden;
+    width: 100%;
+    background-color:rgb(240, 131, 29);
+    border:1px solid;
+    border-color: black;
+    
+}
+.navbar a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    display:block;
+    float:left;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+
+}
+.navbar a:hover {
+    background-color:rgb(122, 67, 4);
+    color:black;
+}
+
+/*Sticking Nav Bar*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+/*layout*/
+.row{
+    height:1000px;
+}
+
+.column{
+    float:left;
+    padding: 5px;
+}
+
+.column.side{
+    width:24%;
+}
+
+.column.middle{
+    width:50%;
+}
+
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+
+
+/*form*/
+.main{
+    float: left;
+    text-align: left;
+    height:1000px;
+    width:100%;
+    
+}
+
+
+input[type=text], select ,input[type=email],input[type=date],input[type=tel],input[type=password],input[type=address]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(171, 3, 248);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
